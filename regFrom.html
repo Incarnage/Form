@@ -15,14 +15,14 @@
                     document.getElementById("pchecker").innerHTML = "Password must be at least 8 characters"
                     document.getElementById("schecker").innerHTML = ""
                      
-                    if((2023 - parseInt(myArray))<18){
+                    if((2023 - parseInt(myArray))<21){
                     document.getElementById("bchecker").innerHTML = "Minors are not allowed"
                     document.getElementById("schecker").innerHTML = ""
                 }
                 }
                 else if(pstr.length>=8){
                     document.getElementById("pchecker").innerHTML = ""
-                    if((2023 - parseInt(myArray))<18){
+                    if((2023 - parseInt(myArray))<21){
                     document.getElementById("bchecker").innerHTML = "Minors are not allowed"
                     document.getElementById("schecker").innerHTML = ""
                 }
